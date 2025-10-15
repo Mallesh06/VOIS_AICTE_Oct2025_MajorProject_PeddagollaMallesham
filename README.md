@@ -87,21 +87,33 @@ Used an **LLM** to automatically summarize trends:
 
 ---
 
-## 🤖 LLM Integration Example
-We can integrate a Large Language Model to summarize the EDA automatically.
+## 🧩 Future Scope
 
-```python
-import google.generativeai as genai
+Integrate interactive dashboards using Streamlit or Plotly.
 
-genai.configure(api_key="YOUR_API_KEY")
+Automate EDA reporting with LLM-generated insights.
 
-prompt = """
-Summarize the key trends from the Netflix dataset:
-- More movies or TV shows?
-- Top genres and countries?
-- Yearly trends?
-"""
+Perform sentiment analysis on descriptions.
 
-model = genai.GenerativeModel("gemini-pro")
-response = model.generate_content(prompt)
-print(response.text)
+Use clustering or recommendation algorithms to group similar content.
+
+## 🏁 Conclusion
+
+The analysis of the Netflix dataset revealed important insights into content trends, ratings, and global diversity.
+Combining data analytics with LLM-powered summaries provides a more intelligent and interactive approach to understanding entertainment data.
+
+## 📚 References
+
+Netflix Dataset (Kaggle)
+
+pandas Documentation
+
+seaborn Documentation
+
+Google Gemini API Docs
+
+OpenAI API Docs
+
+# Developed by: Pawan
+# Domain: Data Analytics with LLMs
+# Tool: Google Colab
