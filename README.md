@@ -114,6 +114,6 @@ Google Gemini API Docs
 
 OpenAI API Docs
 
-# Developed by: Pawan
+# Developed by: Peddagolla Mallesham
 # Domain: Data Analytics with LLMs
 # Tool: Google Colab
