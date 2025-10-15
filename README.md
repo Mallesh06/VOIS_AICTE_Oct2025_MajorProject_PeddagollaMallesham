@@ -104,7 +104,7 @@ Combining data analytics with LLM-powered summaries provides a more intelligent 
 
 ## 📚 References
 
-Netflix Dataset (Kaggle)
+Netflix Dataset 
 
 pandas Documentation
 
